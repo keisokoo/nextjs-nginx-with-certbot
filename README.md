@@ -29,7 +29,7 @@ docker network create my_network
 2. next.js 변경시 마다 빌드
 
 ```
-docker-compose -f docker-compose.prod.yml --build
+docker-compose --build
 ```
 
 3. 최초 실행시에만 실행. 이후에는 생략 가능.  
@@ -43,7 +43,7 @@ docker-compose -f docker-compose.prod.yml --build
 4. 실행
 
 ```
-docker-compose -f docker-compose.prod.yml up
+docker-compose up
 ```
 
 ## references from
